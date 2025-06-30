@@ -9,7 +9,7 @@ body {
 /* Container geral */
 .container {
   margin: 20px auto;
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   text-align: center;
   padding: 10px;
@@ -163,10 +163,14 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 
-  .search-bar input,
+  
   .search-bar select {
-    width: 100%;
+    width: 90%;
     margin: 0;
+  }
+
+  .search-bar input{
+    margin-right: 0px;
   }
 
   .search-bar {
@@ -175,7 +179,7 @@ body {
   }
 
   .search-bar button {
-    width: 100%;
+    width: 90%;
     margin-top: 10px;
   }
 }
